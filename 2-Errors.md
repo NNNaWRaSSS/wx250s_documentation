@@ -9,7 +9,7 @@
 
 ## Fix errors during installation
 
-1. If during installation, yo get error because a package didn't compile:
+1. If during installation, you get error because a package didn't compile:
     - download it manually:
         - `apt-cache search <package_name>` → `sudo apt install <the ros-noetic-.. package>` → `rm -rf ~/interbotix_ws/` → run the installation again.
     - Usually the pakages that need manual installation to avoid compiling errors are:
