@@ -43,10 +43,10 @@ source interbotics_ws/devel/setup.bash
 
     - Publish to **`/wx250s/commands/joint_group`**:
 
-      1. Home position:`rostopic pub -1 /wx250s/comands/joint_group interbotix_ws_sdk/JointGroupComand “name: ‘arm’ cmd: [0,0,0,0,0,0]”`
+      1. Home position:`rostopic pub -1 /wx250s/commands/joint_group interbotix_ws_sdk/JointGroupComand “name: ‘arm’ cmd: [0,0,0,0,0,0]”`
         - where `name: ‘arm’`is the arm_group (everithing eccept the gripper
         - where `cmd: [0,0,0,0,0,0]` are joint angles (→ rect position (home))
-      2. Sleep position: `rostopic pub -1 /wx250s/comands/joint_group interbotix_ws_sdk/JointGroupComand “name: ‘arm’ cmd: [<set_of_positions>]”`
+      2. Sleep position: `rostopic pub -1 /wx250s/commands/joint_group interbotix_ws_sdk/JointGroupComand “name: ‘arm’ cmd: [<set_of_positions>]”`
         - to **find the `<set of positions>`** go to github → interbotix_ros_manipulators → interbotix_ros_xsarms → interbotix_ros_xsarms_control → **config → wx250s.yaml** ⇒ config file to see joint order, names, sleep_position, groups (such as `arm`), etc…
 
     </details>
