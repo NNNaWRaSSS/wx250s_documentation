@@ -10,7 +10,7 @@
 1. Source the terminal
 
 ```
-(surce /opt/ros/noetic/setup.bash)
+(source /opt/ros/noetic/setup.bash)
 source interbotics_ws/devel/setup.bash
 ```
 
