@@ -6,7 +6,7 @@ Check [Official documentation](https://docs.trossenrobotics.com/interbotix_xsarm
 <details>
   <summary><strong>Procedure</strong></summary>
 
-  (requirements: Ubuntu Linux 18.04, **20.04**, or 22.04)
+  (requirements: Ubuntu Linux18.04, **20.04**, or 22.04)
 
 Full descktop installaition:
 
