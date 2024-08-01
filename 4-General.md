@@ -26,7 +26,7 @@ source interbotics_ws/devel/setup.bash
   <summary><strong>First comands</strong></summary>
 
 7. To have model loaded and play arround in RViz (play with model):
-    - Use **description** package: `roslaunch interbotix_xsarm_description xsarm_descriptions.launch robot_model:=wx250s use_joint_pub_gui:=true`
+    - Use **description** package: `roslaunch interbotix_xsarm_descriptions xsarm_description.launch robot_model:=wx250s use_joint_pub_gui:=true`
       - note for better rviz visuals: RobotModel → alpha → set transparency to 0.5
       - note for better rviz visuals: TF → Frames → show/not show axes in joint
 8. To talk to the robot and move it in real world:
